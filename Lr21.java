@@ -15,16 +15,17 @@ public class Mainjava22 {
         Pattern DifBeetDataAndwrong = Pattern.compile(wrongPattern);
         Matcher m = DifBeetDataAndRight.matcher(data);
         Matcher d = DifBeetDataAndwrong.matcher(data);
+        try{
         if (m.matches() == true)
            System.out.println(" ");
             else {
-                //Matcher c = DifBeetDataAndwrong.matcher(data);
                     if (d.matches() == true)
-                        System.out.println("Введенное выражение не соответствует заданному формату даты dd/mm/yyyy");
-                        else {
-                            System.out.println("Обшибка");
-            }
-        }
+                        System.out.println("Введенное выражение не соответствует заданному формату даты dd/mm/yyyy");}}
+                        finally {
+                              if(d.matches() == false || m.matches() == false)
+                                 System.out.println("Обшибка");
+                                 System.exit (1);
+                                }
         data.getChars(6,10,myArrayOfYear,0);
         int year = Integer.parseInt(String.valueOf(myArrayOfYear));
         boolean BoolYear = year < 1900;
