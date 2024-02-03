@@ -1,0 +1,127 @@
+﻿  Test_work.cpp
+C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "User" (или приемлемое преобразование отсутствует)
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(480,39):
+  может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(448,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(430,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(412,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(394,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(376,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(358,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(340,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(322,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(303,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(277,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(258,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(224,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(206,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(200,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(194,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(189,39):
+  или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\xstring(5193,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'User'
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\memory(1978,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': не удалось вывести аргумент шаблон для 'const std::shared_ptr<_Ty> &' из 'User'
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\memory(3629,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': не удалось вывести аргумент шаблон для 'const std::unique_ptr<_Ty2,_Dx2> &' из 'User'
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(686,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "const char *"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(730,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "char"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(766,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "const char *"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(811,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "char"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(849,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': не удалось вывести аргумент шаблон для 'const _Elem *' из 'User'
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(892,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	"std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": в шаблон параметр "_Elem" неоднозначен
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  		может быть "User"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  		или       "char"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': не удалось вывести аргумент шаблон для '_Elem' из 'User'
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(928,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "const signed char *"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(934,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "signed char"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(939,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "const unsigned char *"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(945,31):
+  или       "std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "unsigned char"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(1003,9):
+  или       "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  	"_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": не удается вывести аргумент шаблон для "__formal"
+  		D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(1002,103):
+  		"<template-parameter>": невозможно создать указатель на ссылку
+  D:\vs\VC\Tools\MSVC\14.38.33130\include\ostream(1080,32):
+  или       "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)"
+  	C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  	инициализация: невозможно преобразовать "User" в "const std::error_code &"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Причина: невозможно преобразовать "User" в "const std::error_code"
+  		C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,28):
+  		Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  C:\Users\glebv\Desktop\Test_work\Test_work.cpp(18,10):
+  при попытке сопоставить список аргументов "(std::ostream, User)"
+  
